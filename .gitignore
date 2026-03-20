@@ -1,0 +1,5 @@
+# Whisper 模型缓存（体积较大，按需下载）
+whisper_models/
+
+__pycache__/
+*.pyc
