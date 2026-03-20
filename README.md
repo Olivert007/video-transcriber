@@ -138,7 +138,8 @@ python transcribe.py talk.mp4 --output ~/documents/talk_subtitle.srt --format sr
 video-transcriber/
 ├── README.md
 ├── transcribe.py
-└── whisper_models/     # 模型缓存目录（可选，首次指定后自动下载到此）
+├── remove_timestamps.py
+└── whisper_models/     # 模型缓存目录（可选，首次指定后自动下载到此，见 .gitignore）
 ```
 
 将模型下载到项目内 **`whisper_models/`** 目录（命名清晰、便于管理）：

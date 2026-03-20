@@ -3,3 +3,7 @@ whisper_models/
 
 __pycache__/
 *.pyc
+
+# 本地转录输出（勿提交仓库）
+*_transcription.md
+*_transcription_no_ts.md
